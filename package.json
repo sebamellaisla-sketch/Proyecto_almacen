@@ -1,0 +1,32 @@
+{
+  "name": "nuevo_proyecto",
+  "version": "1.0.0",
+  "description": "Sistema POS para pequeños negocios",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "electron",
+    "inventario",
+    "pos"
+  ],
+  "author": "TuNombre",
+  "license": "ISC",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+<<<<<<< HEAD
+    "electron": "^28.0.0"
+=======
+    "electron": "^28.0.0",
+    "electron-rebuild": "^3.2.9"
+>>>>>>> c396743fd50a9bf31a328765323cc96c05ee10d8
+  },
+  "dependencies": {
+    "sqlite3": "^5.1.7"
+  }
+}
